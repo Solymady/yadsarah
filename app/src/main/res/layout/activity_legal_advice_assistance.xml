@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LegalAdviceAssitanceActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/branchesTitle"
+                android:layout_width="421dp"
+                android:layout_height="148dp"
+                android:background="@drawable/header_img"
+                android:text="Legal Advice Assistance "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/paragraphTextView2"
+                android:layout_width="385dp"
+                android:layout_height="39dp"
+                android:layout_below="@id/paragraphTextView"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="45dp"
+                android:gravity="center"
+                android:text="For Adults And Patients"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/paragraphTextView22"
+                android:layout_width="wrap_content"
+                android:layout_height="326dp"
+                android:layout_below="@id/paragraphTextView2"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/serviceInfo"
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="474dp"
+                android:layout_height="250dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="-13dp"
+                android:src="@drawable/photo" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

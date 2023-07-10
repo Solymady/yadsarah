@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">YadSarah</string>
+    <string name="rehabilitationTextView">The rehabilitation center Yad Sarah is designed to provide individuals with physical disabilities and rehabilitation potential a unique, supportive, and warm environment.\n\nIts aim is to expedite their recovery and restore their maximum independence.\n\nThe rehabilitation program includes therapeutic and empowerment interventions, utilizing the existing resources within the individual and their environment. The goal is to equip them for enjoyable social engagement and self-management in their daily lives at home and in the community.\n\nFor each rehabilitant, a personalized rehabilitation plan is tailored to their specific limitations and abilities, with the objective of promoting their self-functioning to the fullest extent possible.\n\nThe rehabilitation center offers a wide range of professional treatments in physical, emotional, and social domains, including physiotherapy, occupational therapy, speech therapy, emotional and cognitive therapies, computer-assisted therapy, and sports therapy.\n\nAdditionally, the center organizes various social activities such as lectures, trips, and educational sessions on current topics and holidays.</string>
+    <string name="paragraph_text">Volunteers from the Home Care Department of Yad Sarah are dedicated to preventing public healthcare burdens such as infections, contagion, geriatric mental health issues, and lack of motivation for recovery.\n\nBy providing a comprehensive response, patients can heal in the comfort of their own homes with the support of their families. Without complications and with a much more efficient medical response.\n\nPatients who are bedridden at home can request a free home hospitalization room that includes an adjustable bed, a patient lift, and a medical armchair. This is in addition to other items provided at Yad Sarah branches, such as an oxygen generator, infusion stand, and more.</string>
+
+
+    <string name="tilt_back_wheelchair">A reclining wheelchair with adjustable backrest is a wheelchair that has a reclining feature where the backrest can be tilted and adjusted between 90-180 degrees in relation to the seat. This type of wheelchair is designed for individuals who are unable to sit upright or require a straight angle for their legs, or for those who spend extended periods of time in a wheelchair and wish to have the option to relax and rest in it.</string>
+    <string name="scooter">The knee scooter, also known as the "CorKinet," resembles a four-wheeled bicycle for children. The injured leg is placed on it, and the user propels the knee scooter forward using the handlebar. The CorKinet provides high mobility for individuals with one leg impairment, both indoors and outdoors. It is suitable for cases of single-leg disability, such as a leg fracture, post-surgery recovery, leg amputation, foot problems, and pain.</string>
+    <string name="treadmill_for_adults">The non-folding forearm walker with wheels is designed for individuals who require support and stability while walking and are unable to bend their knees. The walker features armrests that assist with gripping and walking. The telescopic design of the forearm walker allows for adjustment to accommodate the desired height of the user.</string>
+    <string name="children_wheelchair">A wheelchair for children is a standard wheelchair with a width of 36 cm, which is suitable for children (there is also a 32 cm wide wheelchair available for younger children). The wheelchair is designed for individuals with a small body size, whether they are children or adults, who have temporary or permanent mobility limitations. The wheelchair is suitable for both indoor and outdoor use. The children\'s wheelchair is suitable for self-propulsion by the occupant or for being pushed by a caregiver.</string>
+    <string name="elevator">A powered stairlift chair is designed to ascend and descend stairs, enabling individuals who cannot do so independently to safely and easily navigate stairs without the need for physical assistance. The chair allows people to be effortlessly guided up and down stairs, providing security and confidence.</string>
+    <string name="canadian_crutches">Telescopic crutches provide support when one leg is limited or injured, such as when a leg is fractured and requires reduced weight-bearing. Telescopic crutches are considered to be the safest option as they distribute the weight on the forearm rather than the shoulder. There are three sizes available: for children and shorter individuals, standard size for adults, and extra-tall for taller individuals.</string>
+    <string name="walking_stick_with_seat">A walking cane with a seat provides support and assistance for individuals who need light assistance while walking and require occasional rest, such as during shopping. The cane is telescopic and adjustable to accommodate various heights. When needed, the cane can be unfolded into three legs, with a seat positioned on top for resting</string>
+    <string name="four_wheel_rollator_with_chair">The square-shaped four-wheel rollator provides support and assistance with weight distribution for mobility. It is designed for independent individuals and is suitable for both indoor and outdoor use. Many models include a seat for resting. Rollators typically have brakes for added safety. These rollators are foldable and do not take up much space in the house. They can also easily fit into the trunk of a car.</string>
+    <string name="adult_resistance">An adult standing frame is a device that allows individuals with disabilities or limited physical ability to stand upright when they are unable to do so independently. The standing frame provides stable support and assists individuals in maintaining an upright position. It is designed for rehabilitation exercises and helps individuals gradually transition from sitting or lying down to a standing position, providing support to relevant body parts throughout the process. Additionally, the standing frame facilitates transfers from a chair or bed to a standing position and vice versa.</string>
+    <string name="bath_chair_and_toilet_on_wheels">A wheelchair with toilet and shower facilities, designed for individuals with mobility limitations, ensures their mobility, hygiene, dignity, and independence even in restricted situations. The wheelchair is sturdy and of high quality, suitable for washing, and can be positioned over a toilet. It also serves as a bedside commode if the bucket is included with the purchase.</string>
+
+
+    <string name="commode_toilet_chair">The commode chair serves as an assistive device for transferring and the supportive handles aid the user in both sitting down and standing up. The commode is highly convenient as a shower chair and can be easily washed. It enables the user to move with dignity and safety, whether next to a bed or in the bathroom.</string>
+    <string name="night_pot">A multi-use night pot for adults is hygienic and comfortable for both men and women. In cases of severe mobility limitations, one can use a "night pot" or a urinal bottle for men. In cases of partial mobility limitations, one can use a wheeled commode chair with an opening, placed next to the bed. It allows the user to access the toilet without the need to stand up and sit down. Additionally, a pot can be added to the commode chair, serving as a bedside toilet.</string>
+    <string name="bathroom_bench">A bathtub shower seat assists in providing a secure sitting position for the bather inside the bathtub. The shower seat is highly stable and easily "settles" onto the bathtub, providing confidence and stability for the bather.The shower seat is designed to fit onto the bathtub and is made of plastic with holes through which water can flow, allowing for a pleasant and safe bathing experience.</string>
+    <string name="bottle_of_man_urine">A bedside commode for adults is used for personal hygiene by individuals who are independent but have difficulty getting out of bed or have mobility limitations in various circumstances.A urinal bottle is a reusable, multi-purpose container with a lid specifically designed for male use. It assists individuals in managing their urinary needs while maintaining hygiene and convenience.</string>
+    <string name="toilet_handrail">An adjustable toilet rail provides support for sitting down and standing up in the bathroom for individuals who have difficulty with these movements.The installation of the toilet rail is straightforward, and it is compatible with standard toilets. The toilet rail provides stable support and is a key component in transforming a regular bathroom into an accessible one for individuals with disabilities.</string>
+    <string name="raised_toilet_seat">A rigid raised toilet seat, which is placed on top of the existing toilet seat, helps individuals who have difficulty sitting down and standing up. This seat provides support and makes the process easier for those who struggle with these movements.The toilet seat is designed for personal hygiene purposes. Each individual will do their best to maintain their independence in this regard. Therefore, varying degrees of assistance and support are available based on individual needs.</string>
+
+
+    <string name="babies_cardiological_monitor">For infants with a respiratory or cardiac issue, or for infants in various risk groups, it is important to provide appropriate care and support.</string>
+    <string name="kangaroo">Providing food for patients with digestive or swallowing issues, who are unable to eat orally, is essential.</string>
+    <string name="digital_thermometer">An infrared thermometer is suitable for other uses as well, such as checking the temperature of a bottle, the water temperature in a bathtub, and more.</string>
+    <string name="hot_humidifier">A hot steam device assists and provides relief in various cases, especially when accompanied by cough and congestion. The device generates hot steam, disperses it in the room, warms it, and maintains high humidity. It is recommended for infants, the elderly (and everyone) in cases of congestion, sinus problems, nasal congestion, and various respiratory issues.</string>
+    <string name="infusion_stand">The stand is designed for hanging infusion bags, food bags, or connecting a feeding device for individuals who require drainage or feeding assistance through a feeding device. The stand is adjustable in height and is mobile on wheels. It is not suitable for hanging equipment weighing more than 5 kg.</string>
+    <string name="blood_pressure_monitor">It is intended for measuring blood pressure in a home setting, allowing individuals to monitor their blood pressure without the inconvenience of going to a clinic or hospital. The measurement is simple and quick, and the results are clear.</string>
+
+
+    <string name="lifting_patients_crane">An electric lifting hoist assists individuals with mobility impairments (and their caregivers) in transitioning from one position to another and moving within the home, such as from the bed to a wheelchair, from a chair to a toilet, for bathing, and more.The use of a lifting hoist for people with mobility limitations allows them to be transferred and remain within the home environment, enabling caregivers to perform these tasks with ease.</string>
+    <string name="dynamism_mattress_air">The Air Mattress assists in preventing pressure ulcers. The motor connected to the mattress inflates the cells, causing the mattress to constantly change pressure. This helps prevent pressure ulcers from prolonged lying on the mattress.</string>
+    <string name="electric_recliner">The electric recliner chair operates in stages to assist the seated person in transitioning from a sitting position to a standing position without the need for exertion or strain. The comfortable recliner chair is particularly suitable for prolonged sitting. The standing chair is designed to provide comfortable seating for individuals with mobility difficulties and is intended for prolonged sitting.</string>
+    <string name="home_oxygen_cylinder">A home oxygen cylinder with a capacity of 5 liters assists people with respiratory difficulties who require a supplemental oxygen supply on a regular or temporary basis while staying at home.</string>
+    <string name="home_oxygen_generator">A reliable and high-quality home oxygen concentrator is capable of delivering oxygen with a concentration of approximately 93%. There are two types of oxygen concentrators available: one with a flow rate of 1-5 liters per minute and another with a flow rate of 10 liters per minute. The oxygen concentrator provides oxygen to individuals with low blood oxygen saturation levels, helping to increase and stabilize their oxygen levels.</string>
+    <string name="electric_hospital_bed">A home hospital bed is an adjustable and customizable medical bed that can be configured in several ways, including the head angle, leg angle, overall incline, and bed height. These options are necessary for patients who are bedridden and need to stay at home in the most comfortable and supportive environment possible.</string>
+
+
+    <string name="baby_crib">The crib is made of sturdy and safe wood, providing comfort for the baby. The size of the crib is approximately 90x50 cm, while the accompanying mattress measures approximately 47x85 cm.</string>
+    <string name="wetting_bell">Bed wetting alarm, designed to assist children who suffer from bed wetting. The sensor is sensitive to moisture and emits a beep when wetting occurs. The beep wakes up the child and brings their attention to the act of wetting.</string>
+    <string name="baby_scales">designed for infants who require close monitoring of their growth at home. The mechanical scales for weighing infants provide extremely high precision, up to 10 grams! The baby scale allows frequent weighing of the infant in their own home, saving parents the need to bring the baby to a milk clinic or hospital to check their weight and how much it has increased.</string>
+
+
+    <string name="domestic_bed_railing">Bed rail for the elderly and individuals who, for various reasons, are at risk of falling out of bed. It can be raised and lowered according to needs. It is designed for use on a home bed to prevent falls when the patient is unstable. The bed rail can be easily raised and lowered when the patient needs assistance or care.</string>
+    <string name="bed_table">A bedside table on wheels, standing next to the bed, serves as a convenient surface for items needed by the person lying in bed, hence it is also called a "reading table" or a "silent assistant." It helps the patient to have their medication, drinks, or books within reach. The adjustable table on wheels is designed to assist individuals with limited mobility and make the table accessible to them. The tray-like surface allows them to eat from the bed or chair without reaching for a regular table, place their belongings on it, read, play, and more.</string>
+    <string name="bed_handle">A supportive grip handle assists in changing positions in bed, whether transitioning from a lying position to a standing or sitting position. It also serves as a bed rail for the elderly and individuals who may be at risk of falling from the bed due to various reasons.</string>
+    //Electric recliner
+
+
+    <string name="inhalator">The inhaler delivers medications directly to the respiratory system in the form of aerosols. It is used in cases of respiratory system disorders such as chronic breathing difficulties that lead to the formation of spasms, temporary respiratory problems like asthma, bronchitis, and lung inflammations due to weather conditions, typically in winter.</string>
+    <string name="portable_inhalation_device">The portable inhalation device is small, compact, and lightweight. The inhaler delivers medications directly to the respiratory system in the form of aerosols. It is used in cases of respiratory system disorders such as chronic breathing difficulties that lead to the formation of spasms, temporary respiratory problems like asthma, bronchitis, and lung inflammations due to weather conditions, typically in winter.</string>
+    <string name="cpap">The CPAP (Continuous Positive Airway Pressure) assists the user in breathing during sleep to prevent the collapse of the tongue base, which causes obstructive sleep apnea (choking). The instinctive reflexes awaken the person, and then they can breathe properly. The interruptions in oxygen supply and the resulting forced awakenings can lead to short-term and long-term damage. All of these can be prevented by using CPAP.</string>
+    <string name="thimble_turgor_gauge">It is designed to measure the oxygen level in the blood in a home setting, allowing for monitoring in cases where it is required. The measurement is simple and quick, and the results are clear, without the difficulty of going to a clinic or hospital.</string>
+
+
+    <string name="electric_pedals">Passive-active hand and leg training, using electric pedals to automatically activate the limbs, assist in training and strengthening, with the option to adjust the difficulty level according to individual needs and pace.This training is recommended for physical therapy in cases where a person has difficulty independently activating their limbs. It is advisable to consult with a physiotherapist before use!</string>
+    <string name="tennis_equipment">TENS (Trans cutaneous Electrical Nerve Stimulation) alleviates pain, increases the level of endorphins, which are natural pain relievers produced by our brains, through gentle electrical currents. TENS is also used in physical therapy and muscle building for sports.</string>
+    <string name="helping_hand">A long-handled grip that allows for easily and comfortably grasping objects that are out of reach of the hand. The handle assists the elderly, people with disabilities, and especially those who have difficulty bending over or are at risk of falling. With its help, it is possible to pick up debris from the floor or retrieve dropped objects.</string>
+    <string name="mechanical_pedals">Mechanical pedals for exercising and strengthening the muscles of the hands and legs, aiding in training and strengthening with the option to adjust the level of difficulty according to individual needs and pace. This training is recommended in various situations and is suitable for home use. The pedals serve as handles for leg exercises from a regular chair or wheelchair, as well as for hand exercises.</string>
+
+    <string name="serviceInfo">The service includes:\n
+
+Legal advice in various fields including: social security, guardianship, inheritance law, health,
+Legal assistance in drafting legal documents.\n
+Legal assistance for the elderly and sick by lawyers who come to the home or institution where they are cared for.\n
+Legal assistance for new immigrants who do not speak Hebrew.\n
+A series of lectures to inform the elderly population about their legal rights.\n
+Telephone information line for elderly questions about their rights.\n
+Activity for changing policy and legislation for the benefit of the elderly population.\n
+Drafting a lasting power of attorney</string>
+
+    <string name="Hatshara">These are the tools currently available:\n
+        Keyboard navigation button to navigate between links on the website.\n
+        Button to pause animations and/or moving elements on the screen.\n
+        Button to switch to high contrast black-and-white mode for color-blind users.\n
+        Sepia button (brown color mode).\n
+        High contrast button to change contrast settings.\n
+        Black-yellow button.\n
+        Color inversion button.\n
+        Button to clearly highlight all the headings on the website.\n
+        Button to clearly highlight all the links on the website.\n
+        Button to display alternative descriptions for all the images on the website on mouse hover.\n
+        Button to display fixed descriptions for the images on the website.\n
+        Button to disable the use of a hard-to-read font.\n
+        Button to increase the font size on the website.\n
+        Button to decrease the font size on the website.\n
+        Button to magnify the entire display to about 200%.\n
+        Button to shrink the entire display to about 70%.\n
+        Button to enlarge the mouse cursor.\n
+        Button to enlarge the mouse cursor and change its color to black.\n
+        Button to display the accessibility statement.\n
+        Button to reset and disable accessibility features.\n
+        Accessibility feedback submission button.</string>
+    <string name="title_for_units">Yad Sarah centers in Jerusalem and Raanana</string>
+    <string name="headForHealthy">The Center for Healthy Activity</string>
+    <string name="yadsarah">multiuser</string>
+
+    <string-array name="usertype">
+        <item>Client</item>
+        <item>admin</item>
+        <item>Employee</item>
+        <item>Donor</item>
+        <item>volunteer</item>
+    </string-array>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="user_type">User Type</string>
+    <string name="login">Login</string>
+    <string name="hi_dear_employee">Hi Dear employee!</string>
+    <string name="todo">TODO</string>
+    <string name="your_role_at_yad_sarah_is_invaluable_and_we_want_to_express_our_deepest_appreciation_for_your_compassion_skill_and_dedication_thank_you_for_being_an_incredible_force_for_good">Your role at Yad Sarah is invaluable, and we want to express our deepest appreciation for your compassion, skill, and dedication. Thank you for being an incredible force for good.</string>
+    <string name="working_hours_monthly">Working Hours(Monthly)</string>
+    <string name="view_shifts">View Shifts</string>
+    <string name="assign_to_shift">Assign to Shift</string>
+    <string name="forward" />
+    <string name="back" />
+    <string name="save">Save</string>
+    <string name="type_the_shift_name">Type the shift name</string>
+    <string name="event_name">Event Name</string>
+    <string name="salary_calculator">Salary Calculator</string>
+    <string name="no_of_hours">No of hours:</string>
+    <string name="hourly_rate">Hourly rate:</string>
+    <string name="calculate_payment_and_tax">Calculate Payment and Tax</string>
+    <string name="payment">Payment:</string>
+    <string name="overtime_payment">Overtime payment:</string>
+    <string name="tax">Tax:</string>
+    <string name="total_payment">Total payment:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello" />
+    <string name="about_us">ABOUT US</string>
+    <string name="yad_sarah_is_a_non_profit_organization_dedicated_to_providing_a_wide_range_of_support_and_assistance_to_individuals_with_disabilities_and_the_elderly_nwith_a_focus_on_promoting_independence_and_improving_quality_of_life_n_nyad_sarah_offers_various_services_including_medical_equipment_loans_home_care_transportation_and_social_support_committed_to_enhancing_inclusion_and_dignity_for_all_n_n_yad_sarah_has_been_a_pillar_of_compassion_and_care_within_the_community_for_many_years">Yad Sarah is a non-profit organization dedicated to providing a wide range of support and assistance to individuals with disabilities and the elderly. \nWith a focus on promoting independence and improving quality of life, \n\nYad Sarah offers various services, including medical equipment loans, home care, transportation, and social support. Committed to enhancing inclusion and dignity for all\n\n Yad Sarah has been a pillar of compassion and care within the community for many years.</string>
+    <string name="to_our_services">To Our Services</string>
+    <string name="hamza_koc_n101274109">Hamza Koc\n101274109</string>
+    <string name="accessibility_statement">Accessibility Statement</string>
+    <string name="shara_s_hand_places_emphasis_on_providing_service_to_all_customers_including_individuals_with_various_disabilities_in_different_sales_and_service_channels">Shara\'s Hand places emphasis on providing service to all customers, including individuals with various disabilities, in different sales and service channels.</string>
+    <string name="the_center_of_healthy_activity">The Center Of Healthy Activity</string>
+    <string name="at_the_fitness_center_there_are_professional_and_specialized_exercise_and_fitness_equipment_that_allow_everyone_to_maintain_their_health_n_certified_fitness_trainers_prepare_personalized_training_programs_for_each_athlete_even_if_they_have_disabilities_medical_issues_or_emotional_challenges_n_in_addition_to_hands_on_guidance_at_the_fitness_facilities_the_center_s_trainers_also_provide_information_on_additional_equipment_that_individuals_can_ask_about_to_improve_their_health_at_home">At the fitness center, there are professional and specialized exercise and fitness equipment that allow everyone to maintain their health.\n Certified fitness trainers prepare personalized training programs for each athlete, even if they have disabilities, medical issues, or emotional challenges.\n In addition to hands-on guidance at the fitness facilities, the center\'s trainers also provide information on additional equipment that individuals can ask about to improve their health at home.</string>
+    <string name="men_n_a_15_45_18_30_n_c_10_45_12_45_15_45_18_30_n_e_15_45_18_30_n_women_n_b_12_45_14_45_n_c_8_30_10_30_n_e_12_00_14_30">Men:\n A: 15:45-18:30\n C: 10:45-12:45, 15:45-18:30\n E: 15:45-18:30\n Women:\n B: 12:45-14:45\n C: 8:30-10:30\n E: 12:00-14:30</string>
+    <string name="yad_sarah_house_herzl_blvd_124_jerusalem_1st_floor">Yad Sarah House, Herzl Blvd. 124, Jerusalem - 1st floor.</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="we_are_here_for_you_and_at_your_service">We are here for you and at your service</string>
+    <string name="you_can_leave_a_message_and_we_will_get_back_to_you_as_soon_as_possible_ni_m_here_to_help_with_any_questions_you_have">You can leave a message, and we will get back to you as soon as possible. \nI\'m here to help with any questions you have</string>
+    <string name="submit">Submit</string>
+    <string name="community_services">Community Services</string>
+    <string name="thanks_to_your_donation_we_help_125_000_israelis_a_year">Thanks to your donation, we help 125,000 Israelis a year</string>
+    <string name="select_amount">Select Amount</string>
+    <string name="shekel">Shekel</string>
+    <string name="euro">Euro</string>
+    <string name="dollar">Dollar</string>
+    <string name="shift_date">shift Date</string>
+    <string name="add_shift">Add shift</string>
+    <string name="remove_shift">Remove shift</string>
+    <string name="select_date">select Date</string>
+    <string name="shift_id">Shift ID</string>
+    <string name="start_hour">Start Hour</string>
+    <string name="end_hour">End Hour</string>
+    <string name="id">ID</string>
+    <string name="name">name</string>
+    <string name="hour_paid">Hour paid</string>
+    <string name="employees_data">Employees data</string>
+    <string name="remove">remove</string>
+    <string name="edit">edit</string>
+    <string name="view_all_employees">view all employees</string>
+</resources>

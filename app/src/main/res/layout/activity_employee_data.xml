@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmployeeData">
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="26dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/id"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toStartOf="@+id/Ename" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Ename"
+        app:layout_constraintStart_toStartOf="@+id/ID" />
+
+    <TextView
+        android:id="@+id/work"
+        android:layout_width="75dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="3dp"
+        android:text="position"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Ework"
+        app:layout_constraintEnd_toStartOf="@+id/Ework" />
+
+    <TextView
+        android:id="@+id/Hsalary"
+        android:layout_width="77dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/hour_paid"
+        app:layout_constraintBottom_toTopOf="@+id/Epassword"
+        app:layout_constraintStart_toStartOf="@+id/work" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="12dp"
+        android:text="password"
+        app:layout_constraintBottom_toBottomOf="@+id/Epassword"
+        app:layout_constraintStart_toStartOf="@+id/Hsalary" />
+
+    <EditText
+        android:id="@+id/EID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Ename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/EID"
+        app:layout_constraintTop_toTopOf="@+id/EID" />
+
+    <EditText
+        android:id="@+id/Ework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="@+id/Ename"
+        app:layout_constraintTop_toBottomOf="@+id/Ename" />
+
+    <EditText
+        android:id="@+id/EHsalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Hsalary"
+        app:layout_constraintStart_toStartOf="@+id/Ework" />
+
+    <EditText
+        android:id="@+id/Epassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/EHsalary"
+        app:layout_constraintTop_toBottomOf="@+id/Ework" />
+
+    <TextView
+        android:id="@+id/addEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/employees_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:text="add"
+        app:layout_constraintStart_toStartOf="@+id/Epassword"
+        app:layout_constraintTop_toBottomOf="@+id/Epassword" />
+
+    <Button
+        android:id="@+id/editE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        app:layout_constraintStart_toStartOf="@+id/addE"
+        app:layout_constraintTop_toBottomOf="@+id/addE" />
+
+    <Button
+        android:id="@+id/removeE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/remove"
+        app:layout_constraintStart_toStartOf="@+id/editE"
+        app:layout_constraintTop_toBottomOf="@+id/editE" />
+
+    <Button
+        android:id="@+id/viewAll"
+        android:layout_width="134dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/view_all_employees"
+        app:layout_constraintStart_toStartOf="@+id/removeE"
+        app:layout_constraintTop_toBottomOf="@+id/removeE" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CenteroFHealthyActivity">
+
+    <TextView
+        android:id="@+id/branchesTitle"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/header_img"
+        android:text="@string/the_center_of_healthy_activity"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/paragraphTextView"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="167dp"
+        android:gravity="center"
+        android:text="@string/headForHealthy"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/paragraphTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="281dp"
+        android:layout_below="@id/paragraphTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="166dp"
+        android:text="@string/at_the_fitness_center_there_are_professional_and_specialized_exercise_and_fitness_equipment_that_allow_everyone_to_maintain_their_health_n_certified_fitness_trainers_prepare_personalized_training_programs_for_each_athlete_even_if_they_have_disabilities_medical_issues_or_emotional_challenges_n_in_addition_to_hands_on_guidance_at_the_fitness_facilities_the_center_s_trainers_also_provide_information_on_additional_equipment_that_individuals_can_ask_about_to_improve_their_health_at_home"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-170dp"
+        android:layout_marginBottom="149dp"
+        android:layout_toRightOf="@id/paragraphTextView2"
+        app:srcCompat="@drawable/service" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="13dp"
+        android:layout_height="155dp"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="157dp"
+        android:layout_toStartOf="@+id/imageView"
+        android:gravity="center"
+        android:text="@string/men_n_a_15_45_18_30_n_c_10_45_12_45_15_45_18_30_n_e_15_45_18_30_n_women_n_b_12_45_14_45_n_c_8_30_10_30_n_e_12_00_14_30"
+        android:textAlignment="center"
+        android:textColor="#4B3030 "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="586dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/yad_sarah_house_herzl_blvd_124_jerusalem_1st_floor"
+        android:textColor="#4B3030"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

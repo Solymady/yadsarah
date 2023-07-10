@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shiftVolunteer">
+
+
+
+    <TextView
+        android:id="@+id/volunteerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:text="Volunteer Id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shiftDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="217dp"
+        android:text="shift Date"
+        app:layout_constraintEnd_toStartOf="@+id/selectDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/volunteerId" />
+
+    <EditText
+        android:id="@+id/shiftDateE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="9dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintBaseline_toBaselineOf="@+id/shiftDate"
+        app:layout_constraintEnd_toStartOf="@+id/selectDate" />
+
+    <EditText
+        android:id="@+id/volunteerIdE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBaseline_toBaselineOf="@+id/volunteerId"
+        app:layout_constraintStart_toEndOf="@+id/volunteerId" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="30dp"
+        android:text="volunteers shift manager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="41dp"
+        android:text="Add shift"
+        app:layout_constraintEnd_toEndOf="@+id/endH"
+        app:layout_constraintTop_toBottomOf="@+id/endH" />
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:text="Remove shift"
+        app:layout_constraintEnd_toEndOf="@+id/shitIDE"
+        app:layout_constraintTop_toBottomOf="@+id/shitIDE" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="View shifts"
+        app:layout_constraintEnd_toEndOf="@+id/add"
+        app:layout_constraintTop_toBottomOf="@+id/add" />
+
+    <EditText
+        android:id="@+id/shitIDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="164dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/selectDate"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="29dp"
+        android:text="select Date"
+        app:layout_constraintBaseline_toBaselineOf="@+id/shiftDateE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/shiftDate" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:text="Shift ID"
+        app:layout_constraintBaseline_toBaselineOf="@+id/shitIDE"
+        app:layout_constraintEnd_toStartOf="@+id/shitIDE" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="39dp"
+        android:text="Start Hour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shiftDateE" />
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="End Hour"
+        app:layout_constraintBaseline_toBaselineOf="@+id/endH"
+        app:layout_constraintStart_toStartOf="@+id/start" />
+
+    <EditText
+        android:id="@+id/startH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="1dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintBottom_toTopOf="@+id/endH"
+        app:layout_constraintEnd_toEndOf="@+id/endH" />
+
+    <EditText
+        android:id="@+id/endH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:inputType="time"
+        app:layout_constraintStart_toEndOf="@+id/end"
+        app:layout_constraintTop_toBottomOf="@+id/start" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

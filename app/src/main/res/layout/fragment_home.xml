@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hi_dear_employee"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold">
+    </TextView>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/download"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/your_role_at_yad_sarah_is_invaluable_and_we_want_to_express_our_deepest_appreciation_for_your_compassion_skill_and_dedication_thank_you_for_being_an_incredible_force_for_good"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/buttonSalary"
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            android:text="@string/salary_calculator"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/shift"
+            android:layout_width="141dp"
+            android:layout_height="64dp"
+            android:text="shift assibment"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/shiftview"
+            android:layout_width="134dp"
+            android:layout_height="68dp"
+            android:text="view shift"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+</RelativeLayout>

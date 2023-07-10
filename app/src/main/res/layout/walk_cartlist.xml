@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/orderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Summary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/walkToolNameinOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderSummary"
+        android:layout_marginTop="10dp"
+        android:text="Tool Name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/walkQuantityinOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderSummary"
+        android:layout_toRightOf="@id/walkToolNameinOrderSummary"
+        android:layout_marginLeft="10dp"
+        android:text="x"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/walkHomeShipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/walkToolNameinOrderSummary"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="home shipping"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/walkPickUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/walkHomeShipping"
+        android:layout_alignStart="@+id/walkHomeShipping"
+        android:layout_alignEnd="@+id/walkHomeShipping"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="-61dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="18dp"
+        android:layout_toRightOf="@id/walkHomeShipping"
+        android:text="pickUp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/walkPriceinOrderSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/walkToolNameinOrderSummary"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="10$"/>
+
+</RelativeLayout>

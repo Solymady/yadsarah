@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.yadsarah">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YadSarah"
+        tools:targetApi="31">
+        <activity
+            android:name=".CoomunityServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CenteroFHealthyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccessibilityStatementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CanadianCrutchesActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LegalAdviceAssitanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityForClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WalkInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name= ".WalkingAccessoriesActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".RehabilitationCenterActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".HomeCareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ElevatorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScooterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TreadmillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentToolsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChildWheelchairActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccommodationUnitsActivity"
+            android:exported="false"/>
+
+        <provider
+            android:name=".Database.WalkOrderProvider"
+            android:authorities="com.example.yadsarah"
+            android:exported="false" />
+        <activity
+            android:name=".employeeAssibment"
+            android:exported="false" />
+        <activity
+            android:name=".viewEmployeeSc"
+            android:exported="false" />
+        <activity
+            android:name=".viewEmplooyeAssbmint"
+            android:exported="false" />
+        <activity
+            android:name=".viewVolAsbmit"
+            android:exported="false" />
+        <activity
+            android:name=".donorsMain"
+            android:exported="false" />
+        <activity
+            android:name=".EmployeeData"
+            android:exported="false" />
+        <activity
+            android:name=".shiftWorker"
+            android:exported="false" />
+        <activity
+            android:name=".shiftVolunteer"
+            android:exported="false" />
+        <activity
+            android:name=".mainManager"
+            android:exported="false" />
+        <activity
+            android:name=".volunteerAssibment"
+            android:exported="false" />
+        <activity
+            android:name=".viewShiftVol"
+            android:exported="false" />
+        <activity
+            android:name=".mainVolunteer"
+            android:exported="false" />
+        <activity
+            android:name=".AboutSalary"
+            android:exported="false" />
+
+        <activity android:name=".employee"
+            android:exported="false" />
+
+        <activity
+            android:name=".SalaryCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".DonateMoney"
+            android:exported="false" />
+        <activity
+            android:name=".donor"
+            android:exported="false" />
+
+        <activity
+            android:name=".user"
+            android:exported="false" />
+        <activity
+            android:name=".workSearch"
+            android:exported="false" />
+        <activity
+            android:name=".addJob"
+            android:exported="false" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

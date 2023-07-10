@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".WalkingAccessoriesModelActivity">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/walkAccessImg"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/tilt_back_wheelchair_img"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text=""
+                android:textSize="12sp"
+                android:layout_marginRight="12dp"
+                android:layout_below="@+id/walkAccessName"
+                android:layout_marginLeft="12dp"
+                android:id="@+id/walkAccessDescription"
+                android:layout_toRightOf="@+id/walkAccessImg"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/walkAccessName"
+                android:textStyle="italic"
+                android:textSize="24sp"
+                android:layout_toRightOf="@+id/walkAccessImg"
+                tools:text="Tilt Back Wheelchair"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/walkAccessDescription"
+                android:layout_toRightOf="@+id/walkAccessImg"
+                android:id="@+id/clickHereToOrder"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="4dp"
+                tools:text="Click to Order"/>
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

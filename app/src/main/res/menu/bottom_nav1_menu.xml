@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/about"
+        android:title="about"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:id="@+id/Donate"
+        android:title="Donate"
+        android:icon="@drawable/baseline_handshake_24"/>
+    <item android:id="@+id/Thanks"
+        android:title="Thanks"
+        android:icon="@drawable/baseline_favorite_24"/>
+    <item android:id="@+id/ContactUs"
+        android:title="Contact us"
+        android:icon="@drawable/baseline_contact_support_24"/>
+
+</menu>
